@@ -11,45 +11,48 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="usuario"
-        android:id="@+id/usuario"
-        android:layout_centerVertical="true"
-        android:layout_alignRight="@+id/ingresar"
-        android:layout_alignEnd="@+id/ingresar" />
+        android:text="Usuario"
+        android:id="@+id/textView"
+        android:layout_marginTop="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/ingresar"
+        android:layout_alignStart="@+id/ingresar" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/user"
-        android:layout_below="@+id/usuario"
+        android:id="@+id/txtusuario"
+        android:layout_marginTop="33dp"
+        android:layout_below="@+id/textView"
         android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="password"
-        android:id="@+id/password"
-        android:layout_below="@+id/user"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp" />
+        android:text="Password"
+        android:id="@+id/textView2"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/txtusuario"
+        android:layout_centerHorizontal="true" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/pass"
-        android:layout_below="@+id/password"
+        android:id="@+id/txtpassword"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/textView2"
         android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ingresar"
+        android:text="Ingresar"
         android:id="@+id/ingresar"
-        android:layout_below="@+id/pass"
-        android:layout_alignLeft="@+id/password"
-        android:layout_alignStart="@+id/password"
-        android:layout_marginTop="28dp" />
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_marginBottom="50dp" />
 </RelativeLayout>
