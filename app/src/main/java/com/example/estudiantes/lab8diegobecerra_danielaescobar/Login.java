@@ -24,7 +24,7 @@ public class Login extends ActionBarActivity {
                 String usuario = ((EditText) findViewById(R.id.txtusuario)).getText().toString();
                 String password = ((EditText) findViewById(R.id.txtpassword)).getText().toString();
                 if (usuario.equals("DAM")&& password.equals("DAM")){
-                    Intent nuevoform = new Intent(Login.this,Secundario.class);
+                    Intent nuevoform = new Intent(Login.this,ListaEstablecimientos.class);
                     startActivity(nuevoform);
 
                 }

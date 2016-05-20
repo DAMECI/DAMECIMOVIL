@@ -19,7 +19,7 @@
         </activity>
 
         <activity
-            android:name=".Secundario"
+            android:name=".ListaEstablecimientos"
             android:label="@string/app_name" >
         </activity>
     </application>
